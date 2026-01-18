@@ -19,7 +19,7 @@ export const getMusicByLocation = createAsyncThunk(
     async (zipcode: string, {rejectWithValue}) => {
         try {
             // api call
-            const url = `http://0.0.0.0:8000/find-music-recs`;
+            const url = `/music-weather/find-music-recs`;
             let headers = {
                 "zipcode": zipcode,
                 "Content-Type": "application/json",

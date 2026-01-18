@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <h1>Music By Weather</h1>
       <UserLocation />
-      {!loading && data && error && <MusicResults />}
+      {!loading && data != null && error == null && <MusicResults />}
     </div>
   )
 }
