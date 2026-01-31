@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Music By Weather</h1>
+      <h1>Give Me a Rec</h1>
       <UserLocation />
       {!loading && data != null && error == null && <MusicResults />}
     </div>
