@@ -1,4 +1,4 @@
-# find-music-by-weather-ui
+# Give Me a Rec
 Get an album, track, and playlist recommendation to fit the current weather based on your zipcode.
 
 
